@@ -1,0 +1,20 @@
+[user]
+	name = Thijs Janssen
+	email = thijs@thijsj.nl
+[alias]
+	st = status
+	s = status -s
+[core]
+	excludesfile = ~/.gitignore
+	filemode = false
+	editor = vim
+[push]
+	default = simple
+[pull]
+	rebase = true
+[help]
+	autocorrect = 20
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
