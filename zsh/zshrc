@@ -3,6 +3,9 @@ autoload -U colors
 colors
 setopt prompt_subst
 
+fpath=($HOME/.config/prompt $fpath)
+autoload -Uz prompt_purification_setup; prompt_purification_setup
+
 setopt menucomplete
 
 autoload compinit
