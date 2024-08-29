@@ -102,7 +102,7 @@ prompt_git_info() {
 
 prompt_purity_precmd() {
     # Pass a line before each prompt
-    print -P ''
+    # print -P ''
 }
 
 prompt_purification_setup() {
@@ -111,7 +111,7 @@ prompt_purification_setup() {
     autoload -Uz add-zsh-hook
     add-zsh-hook precmd prompt_purity_precmd
 
-    ZSH_THEME_GIT_PROMPT_PREFIX=" %F{red}λ%f:"
+    ZSH_THEME_GIT_PROMPT_PREFIX=" %F{red}%f:"
     ZSH_THEME_GIT_PROMPT_DIRTY=""
     ZSH_THEME_GIT_PROMPT_CLEAN=""
 
