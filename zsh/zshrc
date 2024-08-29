@@ -1,0 +1,9 @@
+# Colors
+autoload -U colors
+colors
+setopt prompt_subst
+
+setopt menucomplete
+
+autoload compinit
+compinit
