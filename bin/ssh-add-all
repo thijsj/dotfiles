@@ -1,3 +1,3 @@
 #!/bin/bash
-ssh-add -l | grep thijs@thijsj.nl > /dev/null || ssh-add ~/.ssh/thijsj-id-ecdsa
 ssh-add -l | grep thijs@seecr.nl > /dev/null || ssh-add ~/.ssh/thijs-seecr-ed25519
+ssh-add -l | grep thijs@thijsj.nl > /dev/null || ssh-add ~/.ssh/thijsj-id-ecdsa
