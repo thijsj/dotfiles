@@ -2,3 +2,8 @@
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
+
+# from seecr
+alias cls="printf '\e]1337;ClearScrollback\a'"
+alias activate="test -f 'env/bin/activate' && source env/bin/activate || echo 'No env found.'"
+alias home='cd $(dirname ${VIRTUAL_ENV})'
